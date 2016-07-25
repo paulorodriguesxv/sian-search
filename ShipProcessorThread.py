@@ -2,6 +2,7 @@ from ShipList import ShipList
 from ShipOrigin import ShipOrigin
 from unicodedata import normalize
 from threading import Thread, BoundedSemaphore
+import json
 
 def remover_acentos(txt, codif='utf-8'):
     return normalize('NFKD', txt.decode(codif)).encode('ASCII','ignore')
@@ -9,13 +10,17 @@ def remover_acentos(txt, codif='utf-8'):
 pool = BoundedSemaphore()
 
 class ShipProcessorThread(Thread):
-    def __init__(self, cities, ships):
+    def __init__(self, cities, filename):
 
         Thread.__init__(self)
 
         self.cities = cities
-        self.ships = ships
-        self.threadName = "Thread-" + str(start) + "-" + str(end)
+        
+        with open(filename) as f:
+            self.ships = json.loads(f.read())
+            f.close()
+        
+        self.threadName = "Thread-" + filename 
         self.resultSet = []
 
     def log(self, text):
@@ -37,7 +42,7 @@ class ShipProcessorThread(Thread):
             origin = remover_acentos(origin.lower())
 
             if origin in self.cities:                
-                self.log(origin)
+                self.log(ship)
                 pool.acquire()
                 try:
                     self.resultSet.append(ship)

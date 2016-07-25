@@ -3,10 +3,11 @@
 
 from bs4 import BeautifulSoup
 import requests
+import sys
 
 class ShipList(object):
     
-    def __init__(self, lista, initQuantReg=0, quantReg=500):
+    def __init__(self, initQuantReg=0, quantReg=500):
         self.apiroot = "http://www.an.gov.br/sian/multinivel/Multinivel_Consulta4.asp"
 
         self.payload= dict(  v_ini=initQuantReg,
@@ -19,6 +20,9 @@ class ShipList(object):
                         v_NroOrdemInicial="",
                         v_titulo=""
         )
+
+        print initQuantReg
+        print self.payload
     
     def getList(self):
         resultSet = []
@@ -68,6 +72,6 @@ class ShipList(object):
                                     refdate=lista[3].replace("\n", ""))
                 resultSet.append(resultData)
             except:
-                self.log("Oops!",sys.exc_info()[0],"occured.")
+                print "Oops!",sys.exc_info()[0],"occured."
 
         return resultSet    

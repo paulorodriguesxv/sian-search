@@ -1,0 +1,213 @@
+ Agrigento
+ Alexandria
+ Ancona
+ Áquila
+ Arezzo
+ Ascoli Piceno
+ Asti
+ Avelino
+ Bari
+ Barletta-Andria-Trani
+ Belluno
+ Benevento
+ Bergamot
+ Biella
+ Bolonha
+ Bolzano
+ Cagliari
+ Caltanissetta
+ Campobasso
+ Carbonia-Iglesias
+ Caserta
+ Catania
+ Catanzaro
+ Chieti
+ Como
+ Cosenza
+ Cremona
+ Cuneo
+ Ena
+ Fermo
+ Ferrara
+ Florença
+ Foggia
+ Forlì-Cesena
+ Frosinone
+ Génova 
+ Gorizia 
+ Grosseto
+ Impéria
+ Isémia
+ Latina
+ Lecce
+ Lecco
+ Lodi
+ Luca
+ Macerata
+ Manta
+ Massa-Carrara
+ Matera
+ Medio Campidano
+ Messina
+ Milão
+ Modena
+ Monza e Brianza
+ Nápoles
+ Novara
+ Nuoro
+ Ogliastra
+ Olbia-Tempio
+ Oristano
+ Pádua
+ Palermo
+ Parma
+ Pavia
+ Perugia
+ Pesaro e Urbino
+ Pescara
+ Placência
+ Pisa
+ Pistoia
+ Pordenone
+ Potenza
+ Prato
+ Ragusa
+ Raven
+ Régio da Calábria
+ Régio da Emília
+ Rieti
+ Rimini
+ Roma
+ Rovigo
+ Salem
+ Sassari
+ Savona
+ Siena
+ Siracusa
+ Sondrio
+ La Spezia
+ Taranto
+ Tram
+ Terni
+ Trapani
+ Trento
+ Treviso
+ Trieste
+ Turim
+ Valle d’mostra
+ Varese
+ Veneza
+ Verbano Cusio Ossola
+ Vercelli
+ Verona
+ Vibo Valentia
+ Vicenza
+ Viterbo
+ Agrigento
+ Alessandria
+ Ancona
+ Aosta
+ L'Aquila
+ Arezzo
+ Ascoli Piceno
+ Asti
+ Avellino 
+ Bari
+ Belluno
+ Benevento
+ Bergamo
+ Biella
+ Bolonia
+ Bolzano
+ Brescia
+ Brindisi
+ Cagliari
+ Caltanissetta
+ Campobasso
+ Carbonia - Iglesias
+ Caserta 
+ Catania
+ Catanzaro 
+ Chieti
+ Como
+ Cosenza
+ Cremona
+ Crotone 
+ Cuneo
+ Enna
+ Ferrara
+ Florencia
+ Foggia
+ Forlì
+ Frosinone
+ Genova
+ Gorizia
+ Grosseto
+ Imperia
+ Isernia
+ La Spezia
+ Latina
+ Lecce
+ Lecco
+ Livorno
+ Lodi
+ Lucca
+ Macerata
+ Mantova
+ Massa Carrara
+ Matera
+ Medio Campidano 
+ Messina 
+ Milan
+ Modena
+ Napoles
+ Novara
+ Nuoro
+ Ogliastra
+ Olbia - Tempio
+ Oristano
+ Padova
+ Palermo
+ Parma
+ Pavia
+ Perugia
+ Pesaro 
+ Pescara
+ Piacenza
+ Pisa
+ Pistoia
+ Pordenone
+ Potenza
+ Prato
+ Ragusa
+ Ravenna 
+ Reggio Calabria
+ Reggio Emilia
+ Rieti
+ Rimini
+ Roma
+ Rovigo
+ Salerno 
+ Sassari
+ Savona
+ Siena
+ Siracusa 
+ Sondrio
+ Taranto
+ Teramo
+ Terni 
+ Trapani
+ Trento
+ Treviso
+ Trieste
+ Turin
+ Udine
+ Varese 
+ Venecia
+ Verbania
+ Vercelli
+ Verona
+ Vibo Valentia
+ Vicenza
+ Viterbo
+Italia

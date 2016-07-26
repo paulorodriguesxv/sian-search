@@ -32,8 +32,10 @@ for threadI in xrange(0, 49):
 #for t in threads:
 #    t.join()
 
-threads[0].start()
-threads[0].join()
+for t in threads:
+    t.start()    
+    t.join()
+    
 outfile = open('data.txt', 'w')
 try:
     json.dump(lista, outfile)

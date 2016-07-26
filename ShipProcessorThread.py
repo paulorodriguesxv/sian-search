@@ -32,19 +32,28 @@ class ShipProcessorThread(Thread):
     def run(self):
         self.log("-> analyzing ships...")
         for ship in self.ships:
-            self.log("analyzing..." + ship["id"])
             
             v = ShipOrigin(ship["id"])
             origin = v.analyzeOrigin()
 
             if origin == None:
                 continue
-            origin = remover_acentos(origin.lower())
 
-            if origin in self.cities:                
-                self.log(ship)
-                pool.acquire()
-                try:
-                    self.resultSet.append(ship)
-                finally:
-                    pool.release()
+            co = remover_acentos(origin.lower())
+            co = co.replace("\r", ",")
+            co = co.replace("escalas", "")
+            co = co.replace("escala","")
+            co = co.replace(":", "")
+            co = co.replace(";", "")
+            co = co.replace(" ", "")
+            
+            origins = co.split(',')
+
+            for origin in origins:            
+                if origin in self.cities:                
+                    self.log("### " + origin + " ###" )
+                    pool.acquire()
+                    try:
+                        self.resultSet.append(dict(ship=ship, origin=origin))
+                    finally:
+                        pool.release()
